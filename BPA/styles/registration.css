@@ -1,0 +1,33 @@
+.registration-body {
+    padding:30px;
+}
+
+.registration-body > .registration-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.registration-wrapper > .registration-content > .title {
+    font-family: 'Anton', sans-serif;
+    font-size: xx-large;
+}
+
+.registration-wrapper > .registration-content p {
+    color: black;
+    font-size: large;
+    font-family: 'Noto Serif', serif;
+}
+
+/* Links part */
+.registration-content > .wrap-lists {
+display: grid;
+grid-gap: 10px;
+}
+
+.registration-content > .wrap-lists > ul li {
+    color:black; 
+    font-size: larger;
+    font-family: 'Noto Serif', serif;
+}
+

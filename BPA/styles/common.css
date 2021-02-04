@@ -1,0 +1,14 @@
+body {
+    margin: 0px;
+    display: grid;
+    grid-gap: 1rem;
+    background-color:  #d4b3b3;
+}
+
+.body-sec {
+    padding: 100px;
+}
+
+.body-sec > img {
+    height: 500px;
+}

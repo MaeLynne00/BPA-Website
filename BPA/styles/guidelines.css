@@ -1,0 +1,21 @@
+.guidelines-body {
+    padding:30px;
+    /* margin-right: 39pc; */
+}
+
+.guidelines-body > .guidelines-body-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.guidelines-body-wrapper > .guidelines-content > .title {
+    font-family: 'Anton', sans-serif;
+    font-size: xx-large;
+}
+
+.guidelines-body-wrapper > .guidelines-content p {
+    color: black;
+    font-size: large;
+    font-family: 'Noto Serif', serif;
+}

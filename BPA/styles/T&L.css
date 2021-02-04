@@ -1,0 +1,55 @@
+.trans-body {
+    padding: 30px;
+}
+.Trans-wrapper > .Trans-content > .warning {
+    font-family: 'Noto Serif', serif;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.Trans-wrapper > .Trans-content > .warning b{
+    color: rgb(163, 13, 13);
+    font-size: 35px;
+}
+.Trans-wrapper > .Trans-content > .title {
+    font-family: 'Anton', sans-serif;
+    font-size: xx-large;
+    text-decoration: underline;
+    padding-top: 10px;
+}
+
+.Trans-wrapper > .Trans-content > .list-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    text-decoration: none;
+}
+
+.Trans-content > .list-wrapper ul {
+    font-size: 15px;
+}
+
+.list-wrapper > ul li {
+    text-decoration: none;
+    color:black; 
+    font-size: larger;
+}
+
+.Trans-wrapper > .Trans-content > .sub-title a {
+    font-family: 'Anton', sans-serif;
+    font-size: x-large;
+    text-decoration: none;
+    color: rgb(12, 23, 114);
+}
+
+.Trans-wrapper > .Trans-content > .sub-title a:hover {
+    color: white;
+}
+
+.Trans-content > .details-wrapper {
+    margin-top: -10px;
+    padding-bottom: 15px;
+}
+.Trans-content > .details-wrapper p {
+    font-size: large;
+}

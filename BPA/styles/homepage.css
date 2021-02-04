@@ -1,0 +1,39 @@
+/* This is the middle section */
+
+.body-sec {
+    background-image: url(../images/backgrounds/NLC.jpg);
+    padding: 100px;
+    height: 300px;
+    background-attachment: fixed;
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-sec > .body-con > .body-details p {
+    padding: 20px 20px;
+    background-color: #d4b3b3;
+    margin-right: 760px;
+
+}
+
+ .body-con > .register-here {
+    padding: 20px 20px;
+    background-color: #d4b3b3;
+    margin-right: 300px;
+    position: absolute;
+    bottom: 80px;
+    border: darkblue; 
+}
+
+.body-con > .register-here a {
+    margin-top: 100px; 
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+    transition: 0.7s;
+}
+
+.body-con > .register-here a:hover {
+   letter-spacing: 2px;
+}

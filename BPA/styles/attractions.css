@@ -1,0 +1,34 @@
+.other-attractions > .title {
+    text-decoration: underline;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 35px;
+    padding-top: 30px;
+}
+
+.other-attractions > .wrap-other-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.other-attractions > .wrap-other-link > .other-link-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    text-decoration: none;
+}
+
+.other-attractions > .wrap-other-link > .other-link-wrapper > li {
+    font-size: 15px;
+}
+
+.other-link-wrapper > li a {
+    text-decoration: none;
+    color:black; 
+    font-size: larger;
+}
+
+.other-link-wrapper > li a:hover {
+    color:white;
+}
